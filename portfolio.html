@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Projects</title>
+</head>
+<body>
+    <style>
+        h2, p {
+            font-family: Roboto;
+        }
+    </style>
+    <p style="display: inline-block;"><a href="index.html">Home</a></p>
+    <p style="display: inline-block;"> | </p>
+    <p style="display: inline-block;"><a href="https://www.github.com/danthedev123">GitHub</a></p>
+
+
+    <h2><a href="https://www.github.com/danthedev123/321OS">321OS</a></h2>
+    <p id="description">
+        321OS was a project to create a tiny kernel in C. 
+        It used the boot protocol Limine, and implemented interrupt handling, it could write text to the screen using the Limine text-terminal, write to serial output and had a very basic memory allocator which could allocate pages (chunks of memory that were 4 KiB - 4096 bytes in size)
+        The project is now abandoned and in the future, at some point I will make a kernel or something similar using Rust rather than C.
+    </p>
+    <img src="https://camo.githubusercontent.com/647800076718fc5b53a7c09e74ec09df304923e484266ecef908fabc180b6920/68747470733a2f2f692e696d6775722e636f6d2f61617376636f452e706e67" alt="321OS terminal and serial-logger showing boot information">
+    
+    
+    <h2><a href="https://github.com/danthedev123/rust-quiz.git">Rust Quiz</a></h2>
+    <p id="description">
+        This was an app I created to help me learn Rust user input and string parsing. It takes questions from files in the following format: question:answer and it gives the questions and shows you the score in the end.
+    </p>
+
+</body>
+</html>
